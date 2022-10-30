@@ -1,0 +1,52 @@
+#content {
+    background-image: url(https://images.pexels.com/photos/2470655/pexels-photo-2470655.jpeg?cs=srgb&dl=pexels-darius-krause-2470655.jpg&fm=jpg&_gl=1*1uphmnd*_ga*MTU4OTY2MTg5MS4xNjY2OTU5OTc0*_ga_8JE65Q40S6*MTY2Njk2MjU2NC4yLjAuMTY2Njk2MjU2NC4wLjAuMA..);
+    height: 900px;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+.principal {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    padding: 100px;
+    opacity: 0.5;
+
+}
+
+.principal h2 {
+    padding: 10%;
+    font-size: 80px;
+    color: black;
+    background-color: rgba(255,240,245);
+}
+
+button {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
